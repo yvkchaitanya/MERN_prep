@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-11</title>
+    <style>
+        .image{
+            align-content: center;
+            margin: auto;
+            width: 25%;
+        }
+        .cred{
+            /* border: 2px solid  black; */
+            margin: auto;
+            width: 20%;
+        }
+        .login{
+            border: 1px solid green;
+            margin: auto;
+            width: 20%;
+            text-align: center;
+            background-color: green;
+            color: white;
+        }
+        .login:hover{
+            color: grey;
+            cursor: pointer;
+        }
+        .remember{
+            margin: auto;
+            width: 20%;
+        }
+        .cancel{
+            /* margin: auto; */
+            width: 5%;
+            position: absolute;
+            left: 610px;
+            border: 2px solid red;
+            background-color: red;
+            color: white;
+        }
+        .cancel:hover{
+            cursor: pointer;
+        }
+        .forgot{
+            width: 10%;
+            display: flex;
+            left: 800px;
+            top: 700px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" alt="profile" height="400">
+    </div>
+    <div class="cred">
+        <b>Username</b>
+        <br>
+        <input type="text" placeholder="Enter Username">
+        <br>
+        <b>Password</b>
+        <br>
+        <input type="password" placeholder="Enter Password">
+    </div>
+    <div class="login">
+        <!-- <input type="submit" value="Login"> -->
+        <b>Login</b>
+    </div>
+    <div class="remember"><input type="checkbox">Remeber me</div>
+    <p class="cancel">Cancel</p>
+    <p class="forgot">Forgot password</p>
+</body>
+</html>
